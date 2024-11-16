@@ -1,0 +1,94 @@
+/* General */
+body {
+    background-image: url('fondo.gif');
+    background-size: 100%; /* La imagen ocupará el 50% del ancho y alto del fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* Hace que el fondo sea estático */
+}
+
+/* Cabecera */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Pestañas y contenido */
+.tab-content {
+    display: none; /* Las secciones están ocultas por defecto */
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content.active {
+    display: block; /* Solo se muestra la sección activa */
+}
+
+.tab-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #0078d7;
+    border-radius: 5px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    background-color: #005fa3;
+}
+
+/* Proyectos */
+.project-card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+/* Contacto */
+a {
+    color: #0078d7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+}
